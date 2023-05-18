@@ -1,5 +1,5 @@
 #!/bin/bash
-#		版本：V2.2
+#		版本：V0.0.2
 #         用于CloudflareST调用，更新hosts和更新dnspod DNS。
 
 #set -euo pipefail
