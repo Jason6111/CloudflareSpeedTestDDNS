@@ -157,19 +157,19 @@ fi
 if [ ! -f ${CloudflareST} ]; then
 	get_arch=`uname -m`
 	if [[ $get_arch =~ "x86_64" ]];then
-	URL="https://ghproxy.com/https://github.com/XIU2/CloudflareSpeedTest/releases/download/v$VERSION/CloudflareST_linux_amd64.tar.gz"
+	URL="https://ghproxy.com/https://github.com/XIU2/CloudflareSpeedTest/releases/download/$VERSION/CloudflareST_linux_amd64.tar.gz"
 	    wget -P ./cf_ddns/tmp/ $URL
 	    tar -zxf ./cf_ddns/tmp/CloudflareST_linux_*.tar.gz -C ./cf_ddns/tmp/
 	    mv ./cf_ddns/tmp/CloudflareST ./cf_ddns/tmp/ip.txt ./cf_ddns/tmp/ipv6.txt ./cf_ddns/
 	    rm -rf ./cf_ddns/tmp/
 	elif [[ $get_arch =~ "aarch64" ]];then
-	    URL="https://ghproxy.com/https://github.com/XIU2/CloudflareSpeedTest/releases/download/v$VERSION/CloudflareST_linux_arm64.tar.gz"
+	    URL="https://ghproxy.com/https://github.com/XIU2/CloudflareSpeedTest/releases/download/$VERSION/CloudflareST_linux_arm64.tar.gz"
 	    wget -P ./cf_ddns/tmp/ $URL
 	    tar -zxf ./cf_ddns/tmp/CloudflareST_linux_*.tar.gz -C ./cf_ddns/tmp/
 	    mv ./cf_ddns/tmp/CloudflareST ./cf_ddns/tmp/ip.txt ./cf_ddns/tmp/ipv6.txt ./cf_ddns/
 	    rm -rf ./cf_ddns/tmp/
 	elif [[ $get_arch =~ "mips64" ]];then
-	    URL="https://ghproxy.com/https://github.com/XIU2/CloudflareSpeedTest/releases/download/v$VERSION/CloudflareST_linux_mips64.tar.gz"
+	    URL="https://ghproxy.com/https://github.com/XIU2/CloudflareSpeedTest/releases/download/$VERSION/CloudflareST_linux_mips64.tar.gz"
 	    wget -P ./cf_ddns/tmp/ $URL
 	    tar -zxf ./cf_ddns/tmp/CloudflareST_linux_*.tar.gz -C ./cf_ddns/tmp/
 	    mv ./cf_ddns/tmp/CloudflareST ./cf_ddns/tmp/ip.txt ./cf_ddns/tmp/ipv6.txt ./cf_ddns/
