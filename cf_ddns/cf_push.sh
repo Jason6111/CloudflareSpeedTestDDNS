@@ -155,4 +155,4 @@ fi
 
 cat $informlog
 
-exit 0;
+exit 0; 
