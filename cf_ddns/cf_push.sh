@@ -153,6 +153,4 @@ else
      fi
 fi
 
-cat $informlog
-
 exit 0; 
