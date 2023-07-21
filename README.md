@@ -1,6 +1,6 @@
 # CloudflareSpeedTestDDNS
 openwrt优选IP定时上传CF和dnspod  
-更多地区IP地址[下载](zip.baipiao.eu.org)
+更多地区IP地址[下载](https://zip.baipiao.eu.org)
 # 食用说明
 v0.0.1  
 1.下载[CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest/releases)只保留`ip.txt`和`CloudflareST`  
