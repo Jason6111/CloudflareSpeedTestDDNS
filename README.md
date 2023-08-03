@@ -4,7 +4,7 @@ openwrt优选IP定时上传CF和dnspod
 # 食用说明
 v0.0.1  
 1.下载[CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest/releases)只保留`ip.txt`和`CloudflareST`  
-2.下载[CloudflareSpeedTestDDNS](https://github.com/Jason6111/CloudflareSpeedTestDDNS/releases/download/0.0.1/CloudflareSpeedTestDDNS-0.0.1.zip)  
+2.下载[CloudflareSpeedTestDDNS](https://github.com/Jason6111/CloudflareSpeedTestDDNS/releases/download/0.0.1/CloudflareSpeedTestDDNS.zip)  
 3.将以上两个放到一个文件夹里上传到openwrt  
 4.安装所需插件`bash``jq``coreutils-timeout`  
 5.ssh连接openwrt进入对应目录chmod +x CloudflareST赋予权限  
